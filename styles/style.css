@@ -1,0 +1,30 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header nav .right-buttons {
+  margin-right: 1%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header nav .left-buttons {
+  margin-left: 1%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.main-content {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+.main-content div {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=style.css.map */

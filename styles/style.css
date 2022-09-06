@@ -20,11 +20,8 @@
 }
 
 .main-content {
-  height: 70%;
+  height: 100vh;
   display: flex;
   justify-content: center;
-}
-.main-content div {
-  width: 100px;
-  height: 100px;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

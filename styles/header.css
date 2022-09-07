@@ -1,0 +1,14 @@
+.header nav .right-buttons {
+  margin-right: 1%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header nav .left-buttons {
+  margin-left: 1%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}/*# sourceMappingURL=header.css.map */

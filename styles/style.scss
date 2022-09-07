@@ -1,35 +1,39 @@
 $primaryColor: #7430f9;
-
-.body{
+body{
     display: flex;
-    flex-direction: column;
-    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url("../assets/image/bg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-.header{
-    nav{
-        .right-buttons{
-            margin-right: 1%;
-            width: 30%;
-            display: flex;
-            align-items: center;
-            justify-content:space-between;
+.body{
+width: 60%;
+}
 
-        }
-        .left-buttons{
-            margin-left: 1%;
-            width: 30%;
-            display: flex;
-            align-items:center;
-            
-            justify-content: start;
-        }
-    }
-}
 
 .main-content {
     height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    form{
+        width: 500px;
+        .card{
+            background-image: linear-gradient(9deg, #051937, #004d7a, #008793, #00bf72);
+            .card-body{
+                display: flex;
+                justify-content: center;
+                
+                flex-direction: column;
+                div{
+                    margin-top: 1vh;
+                }
+            }
+        }
+    }
   }
+
